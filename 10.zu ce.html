@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>(伪)注册页面</h1>
+	<h4>好好学习，天天向上！</h4>
+    <table width="650">
+    	 <tr>
+           <td>用户名：</td>
+           <td><input type="text"></td>
+    	</tr>
+    	<tr>
+           <td>密码：</td>
+           <td><input type="passward"></td>
+    	</tr> 
+    	
+    	<tr>
+    		<td>性别：</td>
+            <td> <!-- 第一行 -->
+            	<input type="radio" name="sex" id="nan"> 
+            	<label for="nan" ><img src="img/nan.jpg" width="20" height="20">男</label>
+            	<input type="radio" name="sex" id="nv"> 
+            	<label for=nv><img src="img/nv.jpg"width="20" height="20">女</label>
+            </td>
+        </tr>
+        <tr> <!-- 第二行 -->
+        	<td>生日:</td>
+            <td>
+            	<select>
+            		<option>--选择年份--</option>
+            		<option>2005</option>
+            		<option>2004</option>
+            		<option>2003</option>
+            		<option>2002</option>
+            	</select> 
+            	<select>
+            		<option>--选择月份--</option>
+            		<option>1月</option>
+            		<option>2月</option>
+            		<option>3月</option>
+            		<option>4月</option>
+            		<option>5月</option>
+            		<option>6月</option>
+            		<option>7月</option>
+            		<option>8月</option>
+            		<option>9月</option>
+            		<option>10月</option>
+            		<option>11月</option>
+            		<option>12月</option>
+            	</select>
+            	<select>
+            		<option>--选择日期--</option>
+            		<option><input type="date"></option>
+            	</select>
+    	</tr>
+    	<tr>
+    		<td>爱好：</td> 
+    		<td>
+    			<label for="tiyu">绘画<input type="checkbox" name="hobby" id="tiyu"></label>
+    			<label for="bc">编程<input  type="checkbox" name="hobby" id= "bc"></label>
+    			<label for="music">音乐<input type="checkbox" name="hobby" id="music"></label></td>
+        </tr>
+
+        <tr>
+    	<td>学历：</td>
+           <td>
+           	<select>
+      	<option>小学以前</option>
+      	<option>小学</option>
+      	<option selected="selected">初中</option>
+        <option>高中</option>
+        <option>大学</option>
+        <option>硕士&研究生</option>
+        <option>博士</option>
+        <option>博士后</option>
+    </select></td><br />
+    	</tr>
+
+    		<td>自我介绍：</td>      
+    		<td><textarea></textarea></td>      
+    	</tr>
+
+    	<tr>
+    		<td><input type="checkbox" name="" checked="cehcked">我已阅读协议条款<br></td>
+    	</tr>
+    	<tr>
+    		<td><input type="submit" value="注册"></td>
+            <td><input type="reset" value="重新填写">
+            <input type="button" value="获取验证码"></td><!--结合后期js搭配使用-->
+    	</tr>
+<tr><td>上传头像：</td><td><input type="file" name="" value="上传文件"></td></tr>
+
+
+    </table>
+
+	
+
+</body>
+</html>
